@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArYaSoftware/ArYa-S-r-m.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "discord.js": "^13.1.0"
-  }
+  "bugs": {
+    "url": "https://github.com/ArYaSoftware/ArYa-S-r-m/issues"
+  },
+  "homepage": "https://github.com/ArYaSoftware/ArYa-S-r-m#readme"
 }
