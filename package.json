@@ -1,8 +1,8 @@
 {
-  "name": "ArYa v13",
+  "name": "ArYa-v13",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "discord.js": "^13.1.0"
   },
