@@ -13,7 +13,7 @@ module.exports = client => {
 
         //Cooldown
         const cooldownTime = cooldown(command, message.author.id);
-        if (cooldownTime) return message.channel.send({ content: `Bekle ${cooldownTime}` })
+        if (cooldownTime) return message.channel.send({ content: `Bu Komutu Tekrar Kullanmak İçin Lütfen ${cooldownTime} Saniye Bekle.` })
 
         try {
             command.execute(message);
