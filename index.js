@@ -5,6 +5,9 @@ const client = new Discord.Client({
     "intents": [Discord.Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
 })
 
+// 7/24 Bölümü
+const keep_alive = require('./keep_alive.js')
+
 
 //Command Handler
 client.commands = new Discord.Collection();
@@ -22,7 +25,7 @@ const { token } = require("./config.json")
 
 
 client.once("ready", () => {
-    console.log("ArYa Bot Hazır!")
+    console.log("Syntax Support Bot Hazır!")
 
     client.user.setPresence({ status: "dnd", activities: [{ name: "SyntaxSoftware.Net", type: "PLAYING" }] })
         //events
