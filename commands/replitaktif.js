@@ -1,0 +1,7 @@
+module.exports = {
+  "name":"replitaktif",
+  "cooldown":5,
+  execute(message) {
+    message.channel.send({content: "Merhaba! Replit den botunuzu nasıl 7/24  yapabilirsiniz bunu anlatıcam.İlk önce index.js e **const keep_alive = require('./keep_alive.js')** yazın şimdi keep_alive.js diye bir dosya açmamız lazım açın ve içine <#886691429513056317> kanalına attığım kodu yapıştırın ve Run yapın consolun üstünde bir link çıkacak onu kopyalayın ve altta verdiğim siteye kayıt olun \n\nhttps://uptimerobot.com/signUp \n\n kayıt işlemi bittikten sonra size mail geliyor verdiğiniz o mail de click here ye basın ve hesap otomatik açılıyor sol hafif yukarıdan New Monitör diyin butonlu yerden https yi seçin orada bazı bölmeler açılacak Friendly Name gibi Name yazan yere botunuzun adını girin zorunlu değildir sonra bi altta link yeri var ordan https yi silin ve kopyaladığınız linki oraya yapıştırın altta yeşil buton olmalı basın ona sarı olucak tekrar basın ve artık 7/24 oldu diyebiliriz 10 saniye sonra siteyi yenileyin verdiğiniz adın yanında %100 yazıyorsa oldu demektir şunu da belirtim 7/24 olmaz her 5-6 saatte bir kapanır 2dk civarı bir süre sonra otomatik yeniden açılır birde çalışması için projenin replit de aktif olması gerekiyor yapamayanlar <@799012176257482753> e ulaşsın"}) 
+  }
+}
