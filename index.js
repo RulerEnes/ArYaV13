@@ -27,7 +27,7 @@ const { token } = require("./config.json")
 client.once("ready", () => {
     console.log("Syntax Support Bot Hazır!")
 
-    client.user.setPresence({ status: "dnd", activities: [{ name: "SyntaxSoftware.Net", type: "PLAYING" }] })
+    client.user.setPresence({ status: "Online", activities: [{ name: "SyntaxSoftware.Net", type: "WATCHING" }] })
         //events
     events.forEach(event => {
         const eventFunc = require(`./events/${event}`)
