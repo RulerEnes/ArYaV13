@@ -25,7 +25,7 @@ const { token } = require("./config.json")
 
 
 client.once("ready", () => {
-    console.log("Syntax Support Bot Hazır!")
+    console.log("Syntax Support Bot Kullanıma Hazır!")
 
     client.user.setPresence({ status: "Online", activities: [{ name: "SyntaxSoftware.Net", type: "WATCHING" }] })
         //events
